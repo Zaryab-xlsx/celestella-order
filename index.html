@@ -477,7 +477,7 @@
     const phone = '923099556319';
     const ref = fbclid ? fbclid.substring(0, 20) : 'direct';
     const msg = encodeURIComponent(
-      `Heyy! Welcome to Celestella 🌟\n\nReal steel. Zero tarnish. FREE stickers included — just for you! 🎁\n\nWhich zodiac sign are you? Drop it below and I'll send your pendant right away ⬇️\n♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓\n\n[ref:${ref}]`
+      `Heyy! Welcome to Celestella 🌟\n\nReal steel. Zero tarnish. FREE stickers included — just for you! 🎁\n\nWhich zodiac sign are you? Drop it below and I'll send your pendant right away ⬇️\n\n[ref:${ref}]`
     );
     return `https://wa.me/${phone}?text=${msg}`;
   }
